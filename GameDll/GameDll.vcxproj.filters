@@ -1,0 +1,225 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="源文件">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="头文件">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="资源文件">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="游戏接口">
+      <UniqueIdentifier>{2aa965c5-abb4-4379-b963-db1f66631171}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="游戏接口\游戏渲染">
+      <UniqueIdentifier>{d8f8cba8-bd20-4c8b-b85d-8b9ecd3976f3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="游戏接口\资源管理">
+      <UniqueIdentifier>{1ecc1ddb-28f3-4e84-81c2-6250e8d59dbc}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="游戏接口\游戏基地址">
+      <UniqueIdentifier>{e376d55a-b7b9-4960-8a37-80e702d9e7a0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="游戏接口\工具类">
+      <UniqueIdentifier>{4c45a073-5e92-45ec-8226-47f6bd3e79bb}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="imgui">
+      <UniqueIdentifier>{00a39713-8c97-44e4-9d76-6575605ba514}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="游戏接口\游戏菜单">
+      <UniqueIdentifier>{385d6824-e3cd-4e97-bac8-477baa76e486}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="游戏接口\虚拟按键">
+      <UniqueIdentifier>{91eb15b3-48ac-4520-a18c-6b842955d243}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="游戏接口\CALL">
+      <UniqueIdentifier>{245e8f54-9ddf-4f0b-98d2-55c94bceff35}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="游戏接口\BUFF">
+      <UniqueIdentifier>{933a6c0f-7016-4dea-b6c2-62badb00dba8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="游戏接口\主线程">
+      <UniqueIdentifier>{e5ae51eb-34fb-4536-b07c-4a06ab0070d8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="游戏接口\怪物类">
+      <UniqueIdentifier>{be2ed08b-c9ce-49dd-9fd0-9ea025063581}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="游戏接口\技能类">
+      <UniqueIdentifier>{260f8e19-147a-4219-ae28-8df790fe2de0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="游戏接口\装备类">
+      <UniqueIdentifier>{aa37a786-7b1c-4691-bdbf-465232ccdadb}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="游戏接口\目标选择器">
+      <UniqueIdentifier>{446060eb-4fe5-4d20-87ec-a6b938d62d5a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="游戏接口\玩家类">
+      <UniqueIdentifier>{a7a25ae0-f1e8-4cbf-9181-a246b41e23aa}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="游戏接口\无模块处理">
+      <UniqueIdentifier>{f9b3df74-c9e3-4b96-a8c7-2184b78490bf}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <Text Include="ReadMe.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="stdafx.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="targetver.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="GameRender.h">
+      <Filter>游戏接口\游戏渲染</Filter>
+    </ClInclude>
+    <ClInclude Include="GameManager.h">
+      <Filter>游戏接口\资源管理</Filter>
+    </ClInclude>
+    <ClInclude Include="utils.h">
+      <Filter>游戏接口\工具类</Filter>
+    </ClInclude>
+    <ClInclude Include="imgui\imconfig.h">
+      <Filter>imgui</Filter>
+    </ClInclude>
+    <ClInclude Include="imgui\imgui.h">
+      <Filter>imgui</Filter>
+    </ClInclude>
+    <ClInclude Include="imgui\imgui_impl_dx9.h">
+      <Filter>imgui</Filter>
+    </ClInclude>
+    <ClInclude Include="imgui\imgui_internal.h">
+      <Filter>imgui</Filter>
+    </ClInclude>
+    <ClInclude Include="imgui\stb_rect_pack.h">
+      <Filter>imgui</Filter>
+    </ClInclude>
+    <ClInclude Include="imgui\stb_textedit.h">
+      <Filter>imgui</Filter>
+    </ClInclude>
+    <ClInclude Include="imgui\stb_truetype.h">
+      <Filter>imgui</Filter>
+    </ClInclude>
+    <ClInclude Include="dllmain.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="GameMenu.h">
+      <Filter>游戏接口\游戏菜单</Filter>
+    </ClInclude>
+    <ClInclude Include="StringConvert.h">
+      <Filter>游戏接口\工具类</Filter>
+    </ClInclude>
+    <ClInclude Include="virtualKey.h">
+      <Filter>游戏接口\虚拟按键</Filter>
+    </ClInclude>
+    <ClInclude Include="Monster.h">
+      <Filter>游戏接口\怪物类</Filter>
+    </ClInclude>
+    <ClInclude Include="Buffer.h">
+      <Filter>游戏接口\BUFF</Filter>
+    </ClInclude>
+    <ClInclude Include="BufferService.h">
+      <Filter>游戏接口\BUFF</Filter>
+    </ClInclude>
+    <ClInclude Include="Skill.h">
+      <Filter>游戏接口\技能类</Filter>
+    </ClInclude>
+    <ClInclude Include="SkillService.h">
+      <Filter>游戏接口\技能类</Filter>
+    </ClInclude>
+    <ClInclude Include="TargetSelecter.h">
+      <Filter>游戏接口\目标选择器</Filter>
+    </ClInclude>
+    <ClInclude Include="Player.h">
+      <Filter>游戏接口\玩家类</Filter>
+    </ClInclude>
+    <ClInclude Include="baseaddr.h">
+      <Filter>游戏接口\游戏基地址</Filter>
+    </ClInclude>
+    <ClInclude Include="HookToMainThread.h">
+      <Filter>游戏接口\主线程</Filter>
+    </ClInclude>
+    <ClInclude Include="ReflectiveDLLInjection.h">
+      <Filter>游戏接口\无模块处理</Filter>
+    </ClInclude>
+    <ClInclude Include="ReflectiveLoader.h">
+      <Filter>游戏接口\无模块处理</Filter>
+    </ClInclude>
+    <ClInclude Include="GameCall.h">
+      <Filter>游戏接口\CALL</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="stdafx.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="GameDll.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="dllmain.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="GameRender.cpp">
+      <Filter>游戏接口\游戏渲染</Filter>
+    </ClCompile>
+    <ClCompile Include="GameManager.cpp">
+      <Filter>游戏接口\资源管理</Filter>
+    </ClCompile>
+    <ClCompile Include="utils.cpp">
+      <Filter>游戏接口\工具类</Filter>
+    </ClCompile>
+    <ClCompile Include="imgui\imgui.cpp">
+      <Filter>imgui</Filter>
+    </ClCompile>
+    <ClCompile Include="imgui\imgui_demo.cpp">
+      <Filter>imgui</Filter>
+    </ClCompile>
+    <ClCompile Include="imgui\imgui_draw.cpp">
+      <Filter>imgui</Filter>
+    </ClCompile>
+    <ClCompile Include="imgui\imgui_impl_dx9.cpp">
+      <Filter>imgui</Filter>
+    </ClCompile>
+    <ClCompile Include="GameMenu.cpp">
+      <Filter>游戏接口\游戏菜单</Filter>
+    </ClCompile>
+    <ClCompile Include="GameCall.cpp">
+      <Filter>游戏接口\CALL</Filter>
+    </ClCompile>
+    <ClCompile Include="Monster.cpp">
+      <Filter>游戏接口\怪物类</Filter>
+    </ClCompile>
+    <ClCompile Include="Buffer.cpp">
+      <Filter>游戏接口\BUFF</Filter>
+    </ClCompile>
+    <ClCompile Include="BufferService.cpp">
+      <Filter>游戏接口\BUFF</Filter>
+    </ClCompile>
+    <ClCompile Include="Skill.cpp">
+      <Filter>游戏接口\技能类</Filter>
+    </ClCompile>
+    <ClCompile Include="SkillService.cpp">
+      <Filter>游戏接口\技能类</Filter>
+    </ClCompile>
+    <ClCompile Include="TargetSelecter.cpp">
+      <Filter>游戏接口\目标选择器</Filter>
+    </ClCompile>
+    <ClCompile Include="Player.cpp">
+      <Filter>游戏接口\玩家类</Filter>
+    </ClCompile>
+    <ClCompile Include="baseaddr.cpp">
+      <Filter>游戏接口\游戏基地址</Filter>
+    </ClCompile>
+    <ClCompile Include="HookToMainThread.cpp">
+      <Filter>游戏接口\主线程</Filter>
+    </ClCompile>
+    <ClCompile Include="ReflectiveLoader.c">
+      <Filter>游戏接口\无模块处理</Filter>
+    </ClCompile>
+  </ItemGroup>
+</Project>
